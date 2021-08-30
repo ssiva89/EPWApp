@@ -1,0 +1,16 @@
+[
+	{
+		"job":{
+			"commandJobName":"commandJobName1",
+			"environment":"MO",
+			"boxJobName":"boxJobName1"
+		}
+	},
+	{
+		"job":{
+			"commandJobName":"commandJobName2",
+			"environment":"MO",
+			"boxJobName":"boxJobName2"
+		}
+	}
+]
