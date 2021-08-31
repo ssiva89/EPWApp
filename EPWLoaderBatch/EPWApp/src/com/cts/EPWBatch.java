@@ -24,7 +24,7 @@ public class EPWBatch {
 	 */
 	private List<EPWLoaderSummary> getEPWLoaderSummaryFromJsonProp(String environment) {
 		List<EPWLoaderSummary> epwLoaderSummaries = new ArrayList<EPWLoaderSummary>();
-		StringBuilder file = new StringBuilder("resource/EPW_BI_");
+		StringBuilder file = new StringBuilder("resource/EPW_");
 		file.append(environment);
 		file.append(".json");
 		System.out.println(file);
